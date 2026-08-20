@@ -8,13 +8,13 @@
 </head>
 <body>
   <main class="app">
-    <header><div><h1>Unidor de Expedientes PDF</h1><p>Desarrollado por: Brayan Huaman - Ingeniería y Planeamiento</p></div></header>
+    <header><div><h1>Unidor de Expedientes PDF</h1><p>Desarrollado por: Darwin Huaman</p></div></header>
     <section class="card">
       <h2>Selecciona un archivo ZIP</h2>
       <label class="picker" for="zipInput"><span>Seleccionar archivo ZIP</span><input id="zipInput" type="file" accept=".zip,application/zip"></label>
       <p id="fileName" class="file-name">Ningún ZIP seleccionado.</p>
       <div class="output-mode" role="radiogroup" aria-label="Formato de salida">
-        <label class="mode-option"><input type="radio" name="outputMode" value="flat" checked><span>PDFs compilados</span></label>
+        <label class="mode-option"><input type="radio" name="outputMode" value="flat" checked><span>Solo PDFs compilados</span></label>
         <label class="mode-option"><input type="radio" name="outputMode" value="company"><span>Organizar por compañía</span></label>
       </div>
       <button id="processButton" disabled>Generar resultado</button>
@@ -28,4 +28,3 @@
   <script src="app.js"></script>
 </body>
 </html>
-
